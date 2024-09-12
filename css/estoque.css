@@ -1,0 +1,32 @@
+.search {
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #007bff;
+    background-color: #dad9d9;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+.card_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #dad9d9;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.product_card .btn {
+    color: #1f6dff;
+    width: 150px;
+}
+
